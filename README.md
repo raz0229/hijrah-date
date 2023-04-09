@@ -81,7 +81,7 @@ var hijrahDate2 = hd.plusYears(1)
 #### `HijrahDate` To `Date`
 Using `HijrahDate::toGregorian` function
 ```js
-var hijrahDate = new HijrahDate(1437, 11, 10, 14, 40, 23, 15);
+var hd = new HijrahDate(1437, 11, 10, 14, 40, 23, 15);
 var date = hd.toGregorian();
 ```
 
